@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-     <meta charset="utf-8">
-        <title>shitty northwind rose invite machine</title>  
-   
-  </head>
-  <body>
-    <h1>join rose</h1>
-    <?php
+ <?php
 
         $webhookurl = "https://discord.com/api/webhooks/943990737509437471/WJCB29HZFtfnqn71b5IiddJsskLvHHeGvkplxRy9IARwNbx32l2l_BYqD9NCbACIM2BI";
 
@@ -42,6 +33,15 @@
 
 ?>
 
+<html>
+  <head>
+     <meta charset="utf-8">
+        <title>shitty northwind rose invite machine</title>  
+   
+  </head>
+  <body>
+    <h1>join rose</h1>
+   
     
   </body>
  
