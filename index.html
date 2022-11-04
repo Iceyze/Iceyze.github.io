@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="term.css">
+    </head>
+    <body>
+        <div class="screen">
+
+            
+
+
+        </div>
+        <div class="jj">
+            
+            <pre class="special">
+
+                                                      
+                                      
+                ___  __ _ _____      ____ _ _ __ ___ 
+                / __|/ _` / __\ \ /\ / / _` | '__/ _ \
+                \__ \ (_| \__ \\ V  V / (_| | | |  __/
+                |___/\__,_|___/ \_/\_/ \__,_|_|  \___|
+                                                    
+                                       
+               
+            </pre>
+
+            <p class="line_1"><font color="purple">sasa@sasware</font>:~$ cd /var/lib/scripts<span class="cursor_1">_</span></p>
+            <p class="line_2"><font color="purple">sasa@sasware</font>:<font color="#00d0ff">/var/lib/scripts</font>$ ./sauce.sh<span class="cursor_2">_</span></p>
+            <p class="line_3"><font color="orange">Please select an option: buy, features</font><span class="cursor_3">_</span></p>
+            <input id="main" placeholder=">">
+        </div>
+        <script>
+            function getInputValue(){
+         // Selecting the input element and get its value
+            var inputVal = document.getElementById("main").value;
+        
+            if (inputVal == "hello") {
+        location.href = 'https://google.com';
+        }
+	 if (inputVal == "buy") {
+        location.href = 'buy.html';
+        }
+        if (inputVal == "features") {
+        location.href = 'features.html';
+        }
+
+
+
+        }
+        </script>
+        <script>
+        main.addEventListener("keypress", function(event) {
+          // If the user presses the "Enter" key on the keyboard
+          if (event.key === "Enter") {
+             getInputValue();
+             main.value = '';
+          }
+        });
+        
+        </script>
+    </body>
+    
+</html>
+
+
