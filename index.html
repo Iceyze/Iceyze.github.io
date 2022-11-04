@@ -34,12 +34,12 @@
             function getInputValue(){
          // Selecting the input element and get its value
             var inputVal = document.getElementById("main").value;
-        
+            var jjdiv = document.getElementsByClassName('jj');
             if (inputVal == "hello") {
         location.href = 'https://google.com';
         }
 	 if (inputVal == "buy") {
-        location.href = 'buy.html';
+        jjdiv.insertAdjacentHTML('<p class="heartless"><font color="orange">buy it or ur heartless</font></p>');
         }
         if (inputVal == "features") {
         location.href = 'features.html';
@@ -62,5 +62,4 @@
     </body>
     
 </html>
-
 
