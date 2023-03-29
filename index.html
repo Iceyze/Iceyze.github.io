@@ -31,9 +31,9 @@
                
             </pre>
 
-            <p class="line_1"><font color="purple">iceyze@icesploit</font>:~$ cd /var/lib/scripts<span class="cursor_1">_</span></p>
-            <p class="line_2"><font color="purple">iceyze@icesploit</font>:<font color="#00d0ff">/var/lib/scripts</font>$ ./sauce.sh<span class="cursor_2">_</span></p>
-            <p class="line_3"><font color="orange">Please select an option: scripts, comms</font><span class="cursor_3">_</span></p>
+            <p class="line_1"><font color="purple">iceyze@icesploit</font>:~$ cd /var/lib/no-virus<span class="cursor_1">_</span></p>
+            <p class="line_2"><font color="purple">iceyze@icesploit</font>:<font color="#00d0ff">/var/lib/no-virus</font>$ ./virus.sh<span class="cursor_2">_</span></p>
+            <p class="line_3"><font color="orange">Please select an option: github, discord, about</font><span class="cursor_3">_</span></p>
             <input id="main" placeholder=">">
         </div>
         <script>
@@ -41,16 +41,18 @@
          // Selecting the input element and get its value
             var inputVal = document.getElementById("main").value;
             var jjdiv = document.getElementsByClassName('jj');
-            if (inputVal == "hello") {
-        location.href = 'https://google.com';
+            if (inputVal == "github") {
+        location.href = 'https://github.com/Iceyze';
         }
-	 if (inputVal == "buy") {
+	 if (inputVal == "stfu monkey") {
         jjdiv.insertAdjacentHTML('<p class="heartless"><font color="orange">buy it or ur heartless</font></p>');
         }
-        if (inputVal == "features") {
-        location.href = 'features.html';
+        if (inputVal == "discord") {
+            location.href = 'http://discordapp.com/users/447793422095351828';
         }
-
+        if (inputVal == "about") {
+            location.href = '/about-me.html';
+        }
 
 
         }
