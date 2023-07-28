@@ -27,7 +27,7 @@ p {
         background: transparent;
         border: none;
         outline: none;
-        caret-shape: underscore;
+        caret: black underscore;
         animation: type .5s 4s steps(20, end) forwards;
 }
 
