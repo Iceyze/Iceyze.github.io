@@ -1,0 +1,76 @@
+
+p {
+    
+    position: relative;
+    left: 10%;
+    margin-left: -8.5em;
+    text-align: left;
+    font-size: 1.25em;
+    font-family: monospace;
+    white-space: normal;
+    overflow: hidden;
+    width: 0;
+
+}
+
+#main {
+    color: white;
+    position: relative;
+    left: 10%;
+    margin-left: -8.5em;
+    text-align: left;
+    font-size: 1.25em;
+    font-family: monospace;
+    white-space: normal;
+    overflow: hidden;
+    width: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    caret: black underscore;
+    animation: type .5s 4s steps(20, end) forwards;
+}
+
+
+
+
+
+
+
+.line_1 {
+
+animation: type .5s 1s steps(20, end) forwards;
+}
+
+.cursor_1 {
+animation: blink 1s 1.5s 2 forwards;
+
+}
+
+
+
+
+@keyframes blink {
+0% {
+  opacity: 0;
+}
+40% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+}
+90% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+}
+}
+
+@keyframes type {
+to {
+  width: 47em;
+}
+}
+
