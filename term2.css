@@ -31,7 +31,19 @@ p {
     animation: type .5s 4s steps(20, end) forwards;
 }
 
+.jj {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  padding-left: 20px;
+  position: fixed;
+  margin: 0;
 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
 
 
 
