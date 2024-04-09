@@ -1,0 +1,39 @@
+body {
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#div1 {
+    border-style: inset;
+    border-color:black;
+    border-width: 10px;
+    text-align: center;
+    background-color: orange;
+    
+}
+
+#links {
+    border-style: inset;
+    border-color:black;
+    border-width: 10px;
+    position:absolute;
+    width: 33vw;
+    height: 1000px;
+    background-color: orange;
+    text-align: center;
+}
+#text {
+    border-style: inset;
+    border-color:black;
+    border-width: 10px;
+    position:absolute;
+    width: 64.98vw;
+    left: 33vw;
+    height: 1000px;
+    background-color: orange;
+    overflow: auto;
+    
+}
+.pic1 {
+    padding-left: 25%;
+}
